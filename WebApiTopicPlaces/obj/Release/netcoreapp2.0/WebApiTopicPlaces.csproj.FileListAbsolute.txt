@@ -1,0 +1,12 @@
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\bin\Release\netcoreapp2.0\WebApiTopicPlaces.deps.json
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\bin\Release\netcoreapp2.0\WebApiTopicPlaces.runtimeconfig.json
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\bin\Release\netcoreapp2.0\WebApiTopicPlaces.runtimeconfig.dev.json
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\bin\Release\netcoreapp2.0\WebApiTopicPlaces.dll
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\bin\Release\netcoreapp2.0\WebApiTopicPlaces.pdb
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.csprojAssemblyReference.cache
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.csproj.CoreCompileInputs.cache
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.AssemblyInfoInputs.cache
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.AssemblyInfo.cs
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.dll
+C:\Users\Javier\source\repos\WebApiTopicPlaces\WebApiTopicPlaces\obj\Release\netcoreapp2.0\WebApiTopicPlaces.pdb

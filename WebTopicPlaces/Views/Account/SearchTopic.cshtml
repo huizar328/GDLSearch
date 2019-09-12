@@ -1,0 +1,68 @@
+﻿@using WebTopicPlaces.Models
+@model SearchTopicViewMoel
+    @{
+        ViewBag.Title = "GDL Search Topic";
+    }
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<style type="text/css">
+
+    .inline {
+    display:inline;
+    }
+
+    .descrip-style {
+        margin: 20px;
+        vertical-align: top;
+    }
+
+    .img-topic {
+      height:100px;
+      width:200px;
+    }
+    .margint-10px {
+     margin-top:10px;
+    }
+</style>
+<div class="h2">Your new favory place</div>
+    <label class="h4">Search:</label>
+    <input id="search" type="text" name="search" maxlength="30" />
+    <div id="topicslist"></div>
+
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var topicList = $("#topicslist");
+            $("#search").on("keyup", function () {
+                $.support.cors = true;
+                $.ajax({
+                    url: "https://webapitopicplaces20190910082614.azurewebsites.net/api/Topics/?request="+ $(this).val(),             
+                    type: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                      topicList.empty();
+                        $.each(data, function (i, item) {
+                            topicList.append("<div>");
+                            topicList.append("<div class='h4'>" + item.name + "</div>");
+                            topicList.append("<div>");
+                            topicList.append("<div class='container'> <img class='img-topic'  src ='"+ item.imgPath +"'></div>");
+                            topicList.append("<div class='h6 container descrip-style'>" + item.description + "</div>");
+                            topicList.append("</div>");
+                            topicList.append("<div class='margint-10px'><button type='button' class='btn btn - warning'>Subscribe</button></div>");
+                            topicList.append("</div>");
+
+                         });
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        alert(xhr.statusText);
+                        alert(thrownError);
+                    }
+
+                });
+            });
+        });
+
+
+    </script>
